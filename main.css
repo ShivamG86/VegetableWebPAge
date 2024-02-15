@@ -1,0 +1,56 @@
+
+
+.image-container {
+    position: relative;
+    text-align: center;
+  }
+  
+  .centered-text {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 100px; 
+    font-weight: bold; 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+  }
+  
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 30px; 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
+  }
+
+  .centered2 {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);;
+    font-size: 30px; 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
+  }
+
+  .custom-button {
+    background-color: transparent; 
+    border: 2px solid white;
+    color: white; 
+    padding: 10px 20px;
+    border-radius: 50px; 
+  }
+
+  @media screen and (max-width: 600px) {
+    .centered-text,
+    .centered,
+    .centered2 {
+      font-size: 2px;
+    }
+  }
+
+  
+  
